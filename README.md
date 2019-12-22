@@ -1,5 +1,7 @@
 # Parts of Speech Tagging
 
+#### This was implemented under the valuable guidance of Prof David Crandall at Indiana University in B551 Elements of AI during Fall 2019.
+
 ## Posterior Probability
 We calculate the sum of the pos and words and normalize it. We calculate the posterior probability using the emission probability for bayes net. For the bayes net we calculate the probability using the emission probability. For the viterbi algoritm we use emission probabilty and transition probabilty to calculate the posterior probability. For the Gibbs sampling we calculate the probability using the emission, transions probabilty and using the POS count which has been normalzied for the training data. If the word pos is not there then we chose a constant using the minimum possible product. We sum up these probabilities and return for the respective model.
 
